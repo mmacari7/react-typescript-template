@@ -1,0 +1,40 @@
+@import "../../../shared/global";
+
+.performance-metrics {
+    color: $pay-white;
+    background-image: linear-gradient(170deg, $pay-darker-blue 15%, $pay-teal);
+    display: flex;
+    justify-content: center;
+
+    .performance-metrics-inner {
+        width: 75%;
+        padding: 24px 0;
+
+        .header {
+            padding-bottom: 12px;
+            margin-bottom: 24px;
+            font-size: 26px;
+            font-weight: bold;
+            border-bottom: 1px solid #fff;
+        }
+
+        .metrics {
+            display: flex;
+            justify-content: space-between;
+
+            label {
+                font-size: 18px;
+                margin-bottom: 8px;
+                display: block;
+            }
+            .value {
+                font-size: 26px;
+                font-weight: bold;
+            }
+
+            &.loading {
+                justify-content: center;
+            }
+        }
+    }
+}

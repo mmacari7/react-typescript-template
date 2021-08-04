@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+
+    .app-header-inner {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 166px;
+            height: 34px;
+        }
+    }
+}

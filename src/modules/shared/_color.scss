@@ -1,0 +1,120 @@
+// Needs to be kept in sync with PST
+// src/modules/shared/_colors.sass
+
+// sass-lint:disable no-color-hex
+
+// consts
+$black: #000000;
+$almost-white: #fafafa;
+$hover-white: #f9f9f9;
+$ghostwhite: #f8f8ff;
+$fog-white: #f7f7f7;
+$gray: #808080;
+$grey: $gray;
+$lighter-gray: #d8d8d8;
+$lighter-grey: $lighter-gray;
+$lightcoral: #f08080;
+$lightgray: #d3d3d3;
+$lightgreen: #90ee90;
+$lightgrey: $lightgray;
+$lightskyblue: #87cefa;
+$red: #ff0000;
+$offwhite: #efefef;
+$white: #ffffff;
+$grey4a: #4a4a4a;
+$grey97: #979797;
+$greyf5: #f5f7fa;
+$divider-grey: #c7c4c4;
+$lighter-gray-2: #d1d1d1;
+
+// app specific
+$brand-green: #00bfa4;
+$brand-teal: #47e0cd;
+$dark-brand-teal: #009688;
+$dark-gray: #4f4f4f;
+$dark-grey: $dark-gray;
+$darker-gray: #4a4a4a;
+$darker-grey: $darker-gray;
+$dusty-gray: #9b9b9b;
+$dusty-grey: $dusty-gray;
+$error-red: #d50000;
+$soft-red: #ff7972;
+$light-teal: #eafffc;
+$missing-item: #cacaca;
+$sky-blue: #3498db;
+$alice-blue: #f5f7fa;
+$soft-black: #303030;
+$soft-gray: #8f8f8f;
+$soft-grey: $soft-gray;
+$success-green: #64dd17;
+$light-green: #7ed321;
+$tab-border: #d7d7d7;
+$tab-fill-light: #fafafa;
+$tab-fill: #f4f4f4;
+
+// metrics component
+$applied-gray: #868b94;
+$label-gray: #737373;
+$link-blue: #346bc7;
+$main-blue: #448aff;
+$header-blue: #448aff;
+$light-gray: #f0efed;
+$input-border: #cfdae9;
+$metrics-blue: #4d87cb;
+$focused-blue: #347cff;
+$metrics-green: #b8e986;
+$toggle-off: #d8d8d8;
+$graph-text-outline: #306299;
+$error-red: #d0021b;
+$disabled-content-bg: #346bc7;
+$background-blue: #0096ff;
+
+// alert-center component
+$alert-border-gray: #e1e8f1;
+$alert-border-grey: $alert-border-gray;
+$alert-bell-red: #d6051d;
+
+// fields
+$field-fill: #f4f4f4;
+$field-fill-hover: rgba(240, 240, 240, 0.4);
+
+// black shades
+$black-shade-10: rgba(0, 0, 0, 0.1);
+$black-shade-12: rgba(0, 0, 0, 0.12);
+$black-shade-30: rgba(0, 0, 0, 0.3);
+$black-shade-50: rgba(0, 0, 0, 0.5);
+$black-shade-70: rgba(0, 0, 0, 0.7);
+$black-shade-87: rgba(0, 0, 0, 0.87);
+$gray-shade-40: rgba($tab-border, 0.4);
+// gray shade
+$gray-shade-22: rgba(195, 193, 193, 0.22);
+$gray-shade-30: rgba(149, 132, 200, 0.3);
+
+// white shade
+$white-shade-50: rgba(255, 255, 255, 0.5);
+
+$selected-background: rgba(0, 150, 255, 0.8);
+
+// payments
+$pay-blue: #448aff;
+$pay-darker-blue: #346bc7;
+$pay-dark-gray: #737373;
+$pay-darker-gray: #4a4a4a;
+$pay-darkest-gray: #303030;
+$pay-gray: #979797;
+$pay-green: #3da50c;
+$pay-light-gray: #d7d7d7;
+$pay-light-gray-2: #f9f9f9;
+$pay-light-gray-blue: #cfdae9;
+$pay-lightest-gray-blue: #f5f7fa;
+$pay-red: #c82323;
+$pay-red-2: #d0021b;
+$pay-teal: #77cccb;
+$pay-white: #ffffff;
+$gray-white-linear-gradient: linear-gradient(180deg, $divider-grey 0%, $white-shade-50 100%);
+$pay-disabled-gray: #e8e8e8;
+
+$app-primary: $pay-darker-blue;
+$app-link-primary: $pay-darker-blue;
+$app-gradient-start: $pay-darker-blue;
+$app-gradient-end: $pay-teal;

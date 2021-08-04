@@ -1,0 +1,48 @@
+@import "../../../shared/global";
+
+.overview-filter {
+    background-color: $soft-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+
+    .overview-filter-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+
+        .date-picker-wrapper {
+            display: flex;
+
+            .date-picker {
+                width: 160px;
+            }
+
+            .from-date {
+                margin-right: 20px;
+            }
+
+            label,
+            input {
+                color: $pay-white;
+                font-size: 18px;
+            }
+
+            svg {
+                color: $pay-white;
+            }
+
+            .MuiInput-underline:before,
+            .MuiInput-underline:after {
+                border-bottom: 2px solid #fff;
+            }
+        }
+
+        .search-button {
+            background-color: $pay-darker-blue;
+            color: #fff;
+        }
+    }
+}
